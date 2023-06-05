@@ -1,0 +1,121 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rd-api-deployment
+  labels:
+    app: rd-api
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rd-api
+  template:
+    metadata:
+      labels:
+        app: rd-api
+    spec:
+      containers:
+        - name: rd-api
+          image: jimter/rd-api-service:latest
+          ports:
+            - containerPort: 8000
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rd-api-service
+  labels:
+    app: rd-api
+spec:
+  selector:
+    app: rd-api
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+  type: NodePort
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rd-time-deployment
+  labels:
+    app: rd-time
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rd-time
+  template:
+    metadata:
+      labels:
+        app: rd-time
+    spec:
+      containers:
+        - name: rd-time
+          image: jimter/rd-time-service:latest
+          ports:
+            - containerPort: 8001
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rd-time-service
+  labels:
+    app: rd-time
+spec:
+  selector:
+    app: rd-time
+  ports:
+    - protocol: TCP
+      port: 8001
+      targetPort: 8001
+  type: NodePort
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rd-count-deployment
+  labels:
+    app: rd-count
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rd-count
+  template:
+    metadata:
+      labels:
+        app: rd-count
+    spec:
+      containers:
+        - name: rd-count
+          image: jimter/rd-count-service:latest
+          ports:
+            - containerPort: 8002
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rd-count-service
+  labels:
+    app: rd-count
+spec:
+  selector:
+    app: rd-count
+  ports:
+    - protocol: TCP
+      port: 8002
+      targetPort: 8002
+  type: NodePort
+
+---

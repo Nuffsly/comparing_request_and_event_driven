@@ -1,0 +1,660 @@
+wrk -t4 -c4 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 4 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.75ms    1.24ms  27.71ms   91.18%
+    Req/Sec   175.01     13.21   210.00     72.48%
+  Latency Distribution
+     50%    5.44ms
+     75%    5.66ms
+     90%    6.62ms
+     99%   11.38ms
+  209403 requests in 5.00m, 60.97MB read
+Requests/sec:    697.81
+Transfer/sec:    208.05KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 4 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.78ms    1.18ms  32.51ms   91.49%
+    Req/Sec   173.84     10.96   202.00     78.34%
+  Latency Distribution
+     50%    5.51ms
+     75%    5.72ms
+     90%    6.58ms
+     99%   10.81ms
+  208005 requests in 5.00m, 60.67MB read
+Requests/sec:    693.15
+Transfer/sec:    207.02KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 4 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.79ms    1.17ms  33.69ms   91.46%
+    Req/Sec   173.70     11.06   202.00     77.93%
+  Latency Distribution
+     50%    5.51ms
+     75%    5.72ms
+     90%    6.56ms
+     99%   10.83ms
+  207843 requests in 5.00m, 60.47MB read
+Requests/sec:    692.59
+Transfer/sec:    206.33KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 4 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.81ms    1.18ms  36.23ms   91.36%
+    Req/Sec   172.95     10.74   202.00     78.60%
+  Latency Distribution
+     50%    5.54ms
+     75%    5.76ms
+     90%    6.61ms
+     99%   10.81ms
+  206942 requests in 5.00m, 60.16MB read
+Requests/sec:    689.61
+Transfer/sec:    205.29KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 4 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.82ms    1.18ms  29.27ms   91.61%
+    Req/Sec   172.68     10.64   202.00     79.13%
+  Latency Distribution
+     50%    5.55ms
+     75%    5.76ms
+     90%    6.56ms
+     99%   10.86ms
+  206625 requests in 5.00m, 60.26MB read
+Requests/sec:    688.54
+Transfer/sec:    205.61KB
+wrk -t4 -c40 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 40 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    53.23ms    9.75ms 126.91ms   71.47%
+    Req/Sec   188.59     26.58   300.00     72.47%
+  Latency Distribution
+     50%   52.80ms
+     75%   58.75ms
+     90%   65.07ms
+     99%   81.43ms
+  225449 requests in 5.00m, 65.97MB read
+Requests/sec:    751.30
+Transfer/sec:    225.13KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 40 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    53.25ms    9.77ms 118.21ms   71.65%
+    Req/Sec   188.54     26.16   303.00     72.51%
+  Latency Distribution
+     50%   52.96ms
+     75%   58.68ms
+     90%   64.96ms
+     99%   82.19ms
+  225381 requests in 5.00m, 65.95MB read
+Requests/sec:    751.02
+Transfer/sec:    225.05KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 40 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    53.19ms    9.82ms 123.67ms   71.38%
+    Req/Sec   188.73     26.36   303.00     72.53%
+  Latency Distribution
+     50%   52.85ms
+     75%   58.77ms
+     90%   65.00ms
+     99%   81.86ms
+  225626 requests in 5.00m, 66.03MB read
+Requests/sec:    751.84
+Transfer/sec:    225.29KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 40 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    53.35ms    9.86ms 124.29ms   71.33%
+    Req/Sec   188.17     26.47   303.00     71.77%
+  Latency Distribution
+     50%   53.02ms
+     75%   59.08ms
+     90%   65.21ms
+     99%   81.84ms
+  224954 requests in 5.00m, 65.83MB read
+Requests/sec:    749.60
+Transfer/sec:    224.62KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 40 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    53.28ms    9.79ms 111.61ms   71.42%
+    Req/Sec   188.41     26.42   292.00     71.87%
+  Latency Distribution
+     50%   52.88ms
+     75%   58.93ms
+     90%   65.06ms
+     99%   81.54ms
+  225240 requests in 5.00m, 65.91MB read
+Requests/sec:    750.56
+Transfer/sec:    224.91KB
+wrk -t4 -c120 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 120 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.50ms   27.46ms 281.57ms   70.67%
+    Req/Sec   195.80     74.01   440.00     63.56%
+  Latency Distribution
+     50%  155.68ms
+     75%  171.81ms
+     90%  188.76ms
+     99%  231.59ms
+  231508 requests in 5.00m, 67.75MB read
+Requests/sec:    771.44
+Transfer/sec:    231.17KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 120 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.69ms   26.27ms 282.62ms   73.01%
+    Req/Sec   197.10     77.56   414.00     65.17%
+  Latency Distribution
+     50%  155.11ms
+     75%  169.26ms
+     90%  186.22ms
+     99%  238.90ms
+  231209 requests in 5.00m, 67.66MB read
+Requests/sec:    770.64
+Transfer/sec:    230.93KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 120 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.94ms   27.64ms 284.56ms   71.92%
+    Req/Sec   195.89     75.12   414.00     65.07%
+  Latency Distribution
+     50%  155.01ms
+     75%  171.06ms
+     90%  189.26ms
+     99%  241.77ms
+  230822 requests in 5.00m, 67.55MB read
+Requests/sec:    769.17
+Transfer/sec:    230.49KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 120 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.44ms   26.70ms 287.13ms   72.74%
+    Req/Sec   197.05     74.98   414.00     65.42%
+  Latency Distribution
+     50%  154.59ms
+     75%  169.38ms
+     90%  187.18ms
+     99%  239.60ms
+  231568 requests in 5.00m, 67.76MB read
+Requests/sec:    771.66
+Transfer/sec:    231.23KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 120 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   155.53ms   27.06ms 299.19ms   72.80%
+    Req/Sec   197.11     76.33   410.00     64.92%
+  Latency Distribution
+     50%  154.55ms
+     75%  169.55ms
+     90%  187.07ms
+     99%  243.18ms
+  231418 requests in 5.00m, 67.55MB read
+Requests/sec:    771.36
+Transfer/sec:    230.56KB
+wrk -t4 -c200 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   258.37ms   43.40ms 494.51ms   74.19%
+    Req/Sec   200.86    113.65   540.00     68.57%
+  Latency Distribution
+     50%  257.44ms
+     75%  279.94ms
+     90%  307.60ms
+     99%  403.05ms
+  232168 requests in 5.00m, 67.72MB read
+Requests/sec:    773.77
+Transfer/sec:    231.11KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   258.36ms   44.05ms 474.38ms   71.55%
+    Req/Sec   200.22    111.72   535.00     68.51%
+  Latency Distribution
+     50%  259.14ms
+     75%  283.54ms
+     90%  309.27ms
+     99%  392.59ms
+  232102 requests in 5.00m, 67.87MB read
+Requests/sec:    773.55
+Transfer/sec:    231.63KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   258.73ms   44.60ms 477.87ms   73.14%
+    Req/Sec   200.18    113.12   505.00     68.88%
+  Latency Distribution
+     50%  258.47ms
+     75%  282.13ms
+     90%  309.80ms
+     99%  395.49ms
+  231822 requests in 5.00m, 67.84MB read
+Requests/sec:    772.50
+Transfer/sec:    231.48KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   258.27ms   43.17ms 512.00ms   71.97%
+    Req/Sec   199.81    109.43   520.00     66.79%
+  Latency Distribution
+     50%  259.12ms
+     75%  281.95ms
+     90%  307.86ms
+     99%  385.24ms
+  232288 requests in 5.00m, 67.97MB read
+Requests/sec:    774.17
+Transfer/sec:    231.98KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   257.53ms   43.31ms 472.56ms   72.82%
+    Req/Sec   201.03    111.36   520.00     69.70%
+  Latency Distribution
+     50%  257.76ms
+     75%  280.55ms
+     90%  306.54ms
+     99%  394.82ms
+  232848 requests in 5.00m, 68.14MB read
+Requests/sec:    776.04
+Transfer/sec:    232.55KB
+wrk -t4 -c280 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 280 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   362.71ms   60.50ms 641.16ms   73.34%
+    Req/Sec   219.57    155.42   707.00     66.96%
+  Latency Distribution
+     50%  363.47ms
+     75%  393.16ms
+     90%  432.08ms
+     99%  557.14ms
+  231493 requests in 5.00m, 67.74MB read
+Requests/sec:    771.40
+Transfer/sec:    231.15KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 280 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   362.20ms   60.87ms 666.53ms   73.57%
+    Req/Sec   218.31    150.92   707.00     67.10%
+  Latency Distribution
+     50%  363.02ms
+     75%  394.30ms
+     90%  428.79ms
+     99%  553.89ms
+  231693 requests in 5.00m, 67.80MB read
+Requests/sec:    772.12
+Transfer/sec:    231.37KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 280 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   361.96ms   60.09ms 655.63ms   73.24%
+    Req/Sec   217.91    150.04   707.00     67.60%
+  Latency Distribution
+     50%  361.72ms
+     75%  393.77ms
+     90%  431.59ms
+     99%  539.64ms
+  231958 requests in 5.00m, 67.88MB read
+Requests/sec:    773.00
+Transfer/sec:    231.64KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 280 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   361.68ms   60.45ms 651.66ms   72.04%
+    Req/Sec   220.20    153.22   707.00     67.50%
+  Latency Distribution
+     50%  362.96ms
+     75%  395.48ms
+     90%  429.46ms
+     99%  540.27ms
+  232148 requests in 5.00m, 67.93MB read
+Requests/sec:    773.61
+Transfer/sec:    231.82KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 280 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   361.95ms   61.54ms 652.43ms   72.38%
+    Req/Sec   218.59    149.49   707.00     68.24%
+  Latency Distribution
+     50%  362.26ms
+     75%  394.65ms
+     90%  432.07ms
+     99%  542.55ms
+  232027 requests in 5.00m, 67.90MB read
+Requests/sec:    773.23
+Transfer/sec:    231.70KB
+wrk -t4 -c360 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 360 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   466.93ms   78.25ms 844.72ms   72.50%
+    Req/Sec   234.11    191.87     0.91k    70.43%
+  Latency Distribution
+     50%  469.91ms
+     75%  506.89ms
+     90%  555.57ms
+     99%  708.66ms
+  231155 requests in 5.00m, 67.64MB read
+Requests/sec:    770.28
+Transfer/sec:    230.82KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 360 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   466.52ms   78.88ms 900.11ms   71.69%
+    Req/Sec   230.79    184.05     0.91k    71.50%
+  Latency Distribution
+     50%  469.40ms
+     75%  508.86ms
+     90%  557.28ms
+     99%  706.20ms
+  231435 requests in 5.00m, 67.38MB read
+Requests/sec:    771.23
+Transfer/sec:    229.94KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 360 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   466.66ms   77.32ms 856.29ms   73.70%
+    Req/Sec   235.40    195.00     0.91k    69.49%
+  Latency Distribution
+     50%  468.57ms
+     75%  504.45ms
+     90%  551.70ms
+     99%  717.34ms
+  231377 requests in 5.00m, 67.27MB read
+Requests/sec:    771.00
+Transfer/sec:    229.53KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 360 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   467.99ms   79.25ms 901.39ms   73.99%
+    Req/Sec   232.52    188.79     0.91k    71.92%
+  Latency Distribution
+     50%  468.78ms
+     75%  506.39ms
+     90%  555.32ms
+     99%  720.59ms
+  230601 requests in 5.00m, 67.21MB read
+Requests/sec:    768.42
+Transfer/sec:    229.35KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 360 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   467.19ms   76.64ms 851.87ms   74.12%
+    Req/Sec   235.48    192.71     0.91k    69.48%
+  Latency Distribution
+     50%  470.05ms
+     75%  505.08ms
+     90%  549.89ms
+     99%  711.23ms
+  231051 requests in 5.00m, 67.39MB read
+Requests/sec:    769.94
+Transfer/sec:    229.96KB
+wrk -t4 -c440 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 440 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   572.95ms   95.50ms   1.13s    71.84%
+    Req/Sec   238.59    206.93     1.11k    75.91%
+  Latency Distribution
+     50%  579.20ms
+     75%  623.37ms
+     90%  680.11ms
+     99%  836.65ms
+  230152 requests in 5.00m, 67.13MB read
+Requests/sec:    766.94
+Transfer/sec:    229.06KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 440 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   571.02ms   90.25ms   1.08s    75.65%
+    Req/Sec   253.34    230.60     1.11k    76.60%
+  Latency Distribution
+     50%  571.10ms
+     75%  612.20ms
+     90%  663.65ms
+     99%  864.97ms
+  230972 requests in 5.00m, 67.37MB read
+Requests/sec:    769.69
+Transfer/sec:    229.89KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 440 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   570.32ms   92.44ms   1.03s    74.31%
+    Req/Sec   250.16    225.29     1.09k    75.59%
+  Latency Distribution
+     50%  571.30ms
+     75%  615.66ms
+     90%  673.40ms
+     99%  848.47ms
+  231239 requests in 5.00m, 67.45MB read
+Requests/sec:    770.74
+Transfer/sec:    230.20KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 440 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   570.10ms   94.14ms   1.04s    73.68%
+    Req/Sec   249.24    226.08     1.11k    73.76%
+  Latency Distribution
+     50%  571.75ms
+     75%  617.78ms
+     90%  675.10ms
+     99%  848.15ms
+  231303 requests in 5.00m, 67.47MB read
+Requests/sec:    770.77
+Transfer/sec:    230.21KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 440 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   570.02ms   94.10ms   1.08s    74.58%
+    Req/Sec   246.86    222.34     1.11k    77.81%
+  Latency Distribution
+     50%  569.82ms
+     75%  618.23ms
+     90%  671.21ms
+     99%  890.83ms
+  231388 requests in 5.00m, 67.49MB read
+Requests/sec:    771.09
+Transfer/sec:    230.31KB
+wrk -t4 -c520 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 520 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   673.29ms  104.20ms   1.21s    76.57%
+    Req/Sec   269.93    261.92     1.30k    83.08%
+  Latency Distribution
+     50%  675.08ms
+     75%  718.37ms
+     90%  779.25ms
+     99%  986.64ms
+  231398 requests in 5.00m, 67.49MB read
+Requests/sec:    771.18
+Transfer/sec:    230.33KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 520 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   672.23ms  107.55ms   1.21s    73.76%
+    Req/Sec   259.00    243.38     1.31k    80.83%
+  Latency Distribution
+     50%  671.96ms
+     75%  727.69ms
+     90%  791.64ms
+     99%  982.77ms
+  231838 requests in 5.00m, 67.62MB read
+Requests/sec:    772.56
+Transfer/sec:    230.74KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 520 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   673.20ms  103.68ms   1.18s    76.14%
+    Req/Sec   271.39    265.17     1.30k    83.46%
+  Latency Distribution
+     50%  675.14ms
+     75%  718.12ms
+     90%  783.91ms
+     99%    1.01s 
+  231398 requests in 5.00m, 67.49MB read
+Requests/sec:    771.09
+Transfer/sec:    230.31KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 520 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   672.48ms  109.40ms   1.21s    75.04%
+    Req/Sec   263.90    256.15     1.31k    82.79%
+  Latency Distribution
+     50%  671.81ms
+     75%  726.45ms
+     90%  792.82ms
+     99%    1.03s 
+  231712 requests in 5.00m, 67.41MB read
+Requests/sec:    772.23
+Transfer/sec:    230.06KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 520 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   670.63ms  104.50ms   1.20s    74.49%
+    Req/Sec   264.43    249.88     1.31k    81.16%
+  Latency Distribution
+     50%  674.55ms
+     75%  720.94ms
+     90%  783.68ms
+     99%  971.91ms
+  232223 requests in 5.00m, 67.51MB read
+Requests/sec:    773.88
+Transfer/sec:    230.39KB
+wrk -t4 -c600 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 600 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   774.87ms  120.87ms   1.42s    76.44%
+    Req/Sec   285.71    295.10     1.49k    86.40%
+  Latency Distribution
+     50%  777.78ms
+     75%  825.35ms
+     90%  901.14ms
+     99%    1.18s 
+  231822 requests in 5.00m, 67.57MB read
+Requests/sec:    772.49
+Transfer/sec:    230.56KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 600 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   776.12ms  122.23ms   1.40s    75.66%
+    Req/Sec   280.12    288.04     1.50k    86.54%
+  Latency Distribution
+     50%  778.18ms
+     75%  832.72ms
+     90%  908.76ms
+     99%    1.16s 
+  231592 requests in 5.00m, 67.55MB read
+Requests/sec:    771.73
+Transfer/sec:    230.50KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 600 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   776.34ms  119.24ms   1.35s    75.45%
+    Req/Sec   272.67    270.43     1.47k    86.76%
+  Latency Distribution
+     50%  779.03ms
+     75%  833.92ms
+     90%  906.82ms
+     99%    1.11s 
+  231313 requests in 5.00m, 67.47MB read
+Requests/sec:    770.94
+Transfer/sec:    230.26KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 600 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   773.75ms  114.80ms   1.33s    74.01%
+    Req/Sec   281.36    288.27     1.49k    86.76%
+  Latency Distribution
+     50%  775.26ms
+     75%  827.08ms
+     90%  896.67ms
+     99%    1.09s 
+  232525 requests in 5.00m, 67.87MB read
+Requests/sec:    774.95
+Transfer/sec:    231.62KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 600 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   775.22ms  121.26ms   1.50s    74.66%
+    Req/Sec   277.04    278.01     1.50k    87.16%
+  Latency Distribution
+     50%  777.82ms
+     75%  829.77ms
+     90%  903.88ms
+     99%    1.10s 
+  231713 requests in 5.00m, 67.81MB read
+Requests/sec:    772.28
+Transfer/sec:    231.41KB
+wrk -t4 -c680 -d5m --latency --timeout 2s
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 680 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   880.87ms  119.62ms   1.55s    82.27%
+    Req/Sec   333.33    372.44     1.71k    85.62%
+  Latency Distribution
+     50%  876.44ms
+     75%  919.86ms
+     90%  985.06ms
+     99%    1.28s 
+  231023 requests in 5.00m, 67.60MB read
+Requests/sec:    769.93
+Transfer/sec:    230.70KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 680 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   879.36ms  134.84ms   1.56s    80.27%
+    Req/Sec   328.39    365.69     1.71k    86.06%
+  Latency Distribution
+     50%  876.88ms
+     75%  921.45ms
+     90%    1.01s 
+     99%    1.33s 
+  231518 requests in 5.00m, 67.75MB read
+Requests/sec:    771.59
+Transfer/sec:    231.21KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 680 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   880.03ms  128.26ms   1.58s    79.29%
+    Req/Sec   315.55    346.94     1.71k    87.01%
+  Latency Distribution
+     50%  876.20ms
+     75%  921.84ms
+     90%    1.00s 
+     99%    1.34s 
+  231291 requests in 5.00m, 67.68MB read
+Requests/sec:    770.84
+Transfer/sec:    230.98KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 680 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   880.67ms  131.10ms   1.71s    78.22%
+    Req/Sec   314.48    347.83     1.71k    86.32%
+  Latency Distribution
+     50%  879.48ms
+     75%  929.19ms
+     90%    1.02s 
+     99%    1.28s 
+  231074 requests in 5.00m, 67.62MB read
+Requests/sec:    770.11
+Transfer/sec:    230.77KB
+Running 5m test @ http://192.168.49.2:30682
+  4 threads and 680 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   879.12ms  127.66ms   1.57s    78.23%
+    Req/Sec   318.68    351.66     1.70k    86.68%
+  Latency Distribution
+     50%  875.28ms
+     75%  923.60ms
+     90%    1.01s 
+     99%    1.35s 
+  231538 requests in 5.00m, 67.75MB read
+Requests/sec:    771.61
+Transfer/sec:    231.21KB

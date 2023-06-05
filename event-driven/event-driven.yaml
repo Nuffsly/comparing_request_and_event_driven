@@ -1,0 +1,85 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ed-api-deployment
+  labels:
+    app: ed-api
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ed-api
+  template:
+    metadata:
+      labels:
+        app: ed-api
+    spec:
+      containers:
+        - name: ed-api
+          image: jimter/ed-api-service:latest
+          ports:
+            - containerPort: 8000
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ed-api-service
+  labels:
+    app: ed-api
+spec:
+  selector:
+    app: ed-api
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+  type: NodePort
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ed-time-deployment
+  labels:
+    app: ed-time
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ed-time
+  template:
+    metadata:
+      labels:
+        app: ed-time
+    spec:
+      containers:
+        - name: ed-time
+          image: jimter/ed-time-service:latest
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ed-count-deployment
+  labels:
+    app: ed-count
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ed-count
+  template:
+    metadata:
+      labels:
+        app: ed-count
+    spec:
+      containers:
+        - name: ed-count
+          image: jimter/ed-count-service:latest
+
+---
