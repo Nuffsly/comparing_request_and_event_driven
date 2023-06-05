@@ -1,4 +1,4 @@
-# Kandidaten
+# Comparing Request- and Event-Driven Microservices in a Container Cluster
 This is the repository used for the Bachelor thesis of Jim Teräväinen and Martin Kuiper. All code is made available with all rights waived and may be used for further research, personal projects and anything else.
 
 ## Purpose
